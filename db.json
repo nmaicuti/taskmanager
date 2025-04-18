@@ -1,0 +1,97 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Nguyễn Văn An",
+      "email": "nguyenvanan@gmail.com",
+      "phone": "0912345678",
+      "avatar": "https://example.com/avatars/an.jpg",
+      "dateOfBirth": "1990-05-15T00:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "name": "Trần Thị Bình",
+      "email": "tranthibinh@gmail.com",
+      "phone": "0923456789",
+      "avatar": null,
+      "dateOfBirth": "1985-11-20T00:00:00.000Z"
+    },
+    {
+      "id": 3,
+      "name": "Lê Văn Cường",
+      "email": "levancuong@gmail.com",
+      "phone": "0934567890",
+      "avatar": "https://example.com/avatars/cuong.jpg",
+      "dateOfBirth": "1995-02-28T00:00:00.000Z"
+    },
+    {
+      "id": 4,
+      "name": "Phạm Thị Diệu",
+      "email": "phamthidieu@gmail.com",
+      "phone": "0945678901",
+      "avatar": "https://example.com/avatars/dieu.jpg",
+      "dateOfBirth": "1992-08-10T00:00:00.000Z"
+    }
+  ],
+  "accounts": [
+    {
+      "id": 1,
+      "userId": 1,
+      "username": "nguyenvanan",
+      "password": "An@123456",
+      "status": "active",
+      "lastLogin": "2025-04-02T08:15:30.000Z",
+      "createdAt": "2023-05-01T00:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "username": "tranthibinh",
+      "password": "Binh@123456",
+      "status": "active",
+      "lastLogin": "2025-04-06T14:22:10.000Z",
+      "createdAt": "2023-06-15T00:00:00.000Z"
+    },
+    {
+      "id": 3,
+      "userId": 3,
+      "username": "levancuong",
+      "password": "Cuong@123456",
+      "status": "inactive",
+      "lastLogin": "2025-03-25T09:45:00.000Z",
+      "createdAt": "2023-07-10T00:00:00.000Z"
+    }
+  ],
+  "task": [
+    {
+      "id": "1",
+      "title": "Finish Project",
+      "description": "Complete the task management project",
+      "status": "In Progress",
+      "priority": 1,
+      "dueDate": "2025-04-20T00:00:00.000Z",
+      "createdAt": "2025-04-10T10:00:00.000Z",
+      "updatedAt": "2025-04-12T12:00:00.000Z",
+      "assignedTo": "user1",
+      "createdBy": "user2",
+      "category": "Development",
+      "attachments": ["file1.pdf", "file2.jpg"],
+      "completed": false
+    },
+    {
+      "id": "2",
+      "title": "Design UI",
+      "description": "Create UI design for login screen",
+      "status": "Pending",
+      "priority": 2,
+      "dueDate": "2025-04-25T00:00:00.000Z",
+      "createdAt": "2025-04-15T08:30:00.000Z",
+      "updatedAt": "2025-04-15T09:00:00.000Z",
+      "assignedTo": "user3",
+      "createdBy": "user1",
+      "category": "Design",
+      "attachments": [],
+      "completed": false
+    }
+  ]
+}
